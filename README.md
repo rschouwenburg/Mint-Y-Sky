@@ -5,7 +5,7 @@ Brighter Mint-Y theme for Linux Mint
 
 ## Installation
 
-1. Download a release
+1. [Download the latest release](https://github.com/rschouwenburg/Mint-Y-Sky/releases)
 2. Unpack archive in ~/.themes -- create dir if it does not exist
 3. Select Mint-Y-Sky in Themes
 
