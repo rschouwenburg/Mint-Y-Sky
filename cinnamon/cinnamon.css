@@ -1439,7 +1439,7 @@ StScrollBar {
 .applet-label {
   font-weight: bold;
   color: #404040; }
-  .applet-label:hover, .applet-label:checked, .applet-box:hover > .applet-label, .applet-box:checked > .applet-label {
+  .applet-label:hover, .applet-label:checked, .applet-box:hover .applet-label, .applet-box:checked  .applet-label {
     color: #ffffff;
     text-shadow: none; }
 .applet-icon {
