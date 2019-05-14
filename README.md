@@ -1,7 +1,7 @@
 # Mint-Y-Sky
 Brighter Mint-Y theme for Linux Mint
 
-![Screenshot][https://github.com/rschouwenburg/Mint-Y-Sky/raw/master/files/screenshot.png]
+![Screenshot](https://github.com/rschouwenburg/Mint-Y-Sky/raw/master/files/screenshot.png)
 
 ## Installation
 
