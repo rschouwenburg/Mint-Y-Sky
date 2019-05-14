@@ -1,7 +1,12 @@
 # Mint-Y-Sky
 Brighter Mint-Y theme for Linux Mint
 
+### Light version
 ![Screenshot](https://github.com/rschouwenburg/Mint-Y-Sky/raw/master/files/screenshot.png)
+
+### Dark version
+
+![Screenshot Dark](https://github.com/rschouwenburg/Mint-Y-Sky/raw/master/files/screenshot-dark.png)
 
 ## Installation
 
