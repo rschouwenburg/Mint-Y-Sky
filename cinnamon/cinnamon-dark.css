@@ -441,7 +441,7 @@ StScrollBar {
 .panel-status-button {
   border-width: 0;
   -natural-hpadding: 3px;
-  -minimum-hpadding: 3px;
+  -minimum-hpadding: 30px;
   font-weight: bold;
   color: white; }
 .panel-button {
@@ -1411,8 +1411,8 @@ StScrollBar {
     height: 1px;
     background: rgba(255, 255, 255, 0.12); }
 .applet-box {
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
   spacing: 4px;
   color: #fefefe;
   text-shadow: none;
