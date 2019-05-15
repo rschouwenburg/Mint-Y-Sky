@@ -4,7 +4,7 @@ $asset_path: if($variant == 'dark', dark-assets, light-assets);
 // Globals
 //
 $font-size: 10;
-$font-family: Ubuntu, Sans-Serif;
+$font-family: Roboto, Ubuntu, Sans-Serif;
 
 stage {
   font-family: $font-family;
@@ -531,19 +531,19 @@ StScrollBar {
   }
 
   &-top {
-    box-shadow: 0 1px darken($panel_bg, 6%);
+    box-shadow:  if($variant =='light', 0 1px rgba(0, 0, 0, 0.3), 0 1px darken($panel_bg,6%));
   }
 
   &-bottom {
-    box-shadow: 0 -1px darken($panel_bg, 6%);
+    box-shadow:  if($variant =='light', 0 -1px rgba(0, 0, 0, 0.3), 0 -1px darken($panel_bg,6%));
   }
 
   &-left {
-    box-shadow: 1px 0 darken($panel_bg, 6%);
+    box-shadow:  if($variant =='light', 1px 0 rgba(0, 0, 0, 0.3), 1px 0 darken($panel_bg,6%));
   }
 
   &-right {
-    box-shadow: -1px 0 darken($panel_bg, 6%);
+    box-shadow:  if($variant =='light', -1px 0 rgba(0, 0, 0, 0.3), -1px 0 darken($panel_bg,6%));
   }
 
   &-dummy {
@@ -1920,11 +1920,12 @@ StScrollBar {
   &-label {
     font-weight: bold;
     color: $panel_fg;
+    margin-top: -1px;
 
     &:hover,
     &:checked,
-    .applet-box:hover > &,
-    .applet-box:checked > & {
+    .applet-box:hover &,
+    .applet-box:checked & {
       color: $selected_fg_color;
       text-shadow: none;
     }
