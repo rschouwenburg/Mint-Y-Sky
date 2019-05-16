@@ -150,7 +150,7 @@ filechooser {
 
     row.sidebar-row {
       border: none;
-      color: $bg_color;
+      color: $fg_color;
 
       &.has-open-popup,
       &:hover { background-color: transparentize($dark_sidebar_fg, 0.85); }
