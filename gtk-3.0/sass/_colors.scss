@@ -1,17 +1,16 @@
 // When color definition differs for dark and light variant,
 // it gets @if ed depending on $variant
 
-
 $base_color: if($variant =='light', #ffffff, #404040);
-$text_color: if($variant == 'light', #282828, #DADADA);
-$bg_color: if($variant =='light', #ECECEC, #383838);
-$fg_color: if($variant =='light', #282828, #DADADA);
+$text_color: if($variant == 'light', #282828, #fffdfd);
+$bg_color: if($variant =='light', #ECECEC, #383735);
+$fg_color: if($variant =='light', #282828, #fffdfd);
 
 $selected_fg_color: #ffffff;
 $selected_bg_color: if($variant == 'light', #4095ff, #1769e7);
 $selected_borders_color: darken($selected_bg_color, 20%);
-$borders_color: if($variant =='light', #BDBDBD, darken($bg_color,6%));
-$separator_color: if($variant == 'light', #DFDFDF, darken($bg_color, 6%));
+$borders_color: if($variant =='light', #BDBDBD, #232323);
+$separator_color: if($variant == 'light', #DFDFDF, #4f4e4c);
 
 $link_color: #5294E2;
 $link_visited_color: #5294E2;
@@ -35,7 +34,7 @@ $insensitive_bg_color: if($variant == 'light', mix($bg_color, $base_color, 40%),
 
 $header_bg: red;
 @if $variant=='light' { $header_bg: #DEDDDD; }
-@if $variant=='dark' or $darker=='true' { $header_bg: #2f2f2f; }
+@if $variant=='dark' or $darker=='true' { $header_bg: #434240; }
 
 $header_bg_backdrop: if($darker == 'true' or $variant == 'dark', lighten($header_bg, 1.5%), lighten($header_bg, 3%));
 
