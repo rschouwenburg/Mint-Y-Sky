@@ -376,7 +376,7 @@ StScrollBar {
       background-gradient-end: rgba(0, 255, 0, 0.2); }
   #panel:highlight {
     border-image: none;
-    background-color: rgba(252, 65, 56, 0.5); }
+    background-color: rgba(252, 65, 56, 0.95); }
 
 .panelLeft {
   spacing: 4px; }

@@ -466,7 +466,7 @@ StScrollBar {
 
   &:highlight {
     border-image: none;
-    background-color: transparentize($error_color, 0.5);
+    background-color: transparentize($error_color, 0.05);
   }
 }
 
