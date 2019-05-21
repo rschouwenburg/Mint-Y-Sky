@@ -1754,6 +1754,15 @@ notebook {
         }
       }
     }
+
+    @each $_pos, $_bpos in (top, right), (bottom, right), (right, bottom), (left, bottom) {
+      &.#{$_pos} {
+        > tabs > tab {
+	  border-#{$_bpos}: 1px solid $borders_color;
+        }
+      }
+    }
+
     // overflow arrows
     &.top, &.bottom {
       > tabs > arrow.up {
