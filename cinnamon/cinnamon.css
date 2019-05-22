@@ -331,7 +331,6 @@ StScrollBar {
   spacing: .5em; }
 
 #panel {
-  font-weight: bold;
   /* sets the height of horizontal panels */
   height: 40px;
   /* sets the width of vertical panels */
