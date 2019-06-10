@@ -1750,23 +1750,17 @@ StScrollBar {
 
 /* Controls the styling when using the "Simple buttons" option */
 .workspace-switcher {
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 3px;
 
   .panel-left &,
   .panel-right & {
-    padding: 0;
   }
 }
 
 .workspace-button {
-  border: 1px solid transparentize(black, 0.6);
-  background-color: transparentize(black, 0.8);
   width: 20px;
   height: 14px;
-  color: transparentize($selected_fg_color, 0.55);
-  padding: 3px;
-  padding-top: 4px;
+  color: $fg_color;
   transition-duration: 200;
 
   &.vertical {
@@ -1789,7 +1783,6 @@ StScrollBar {
 
   &:hover {
     background-color: transparentize($fg_color, 0.8);
-    color: $selected_fg_color;
   }
 }
 
@@ -1805,7 +1798,7 @@ StScrollBar {
 }
 
 .workspace-graph .workspace:active {
-  border: 1px solid $selected_bg_color;
+  border: if($variant == 'light', 2px, 1px) solid $selected_bg_color;
 }
 
 .workspace-graph .workspace .windows {
