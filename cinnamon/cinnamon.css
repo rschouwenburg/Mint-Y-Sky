@@ -729,10 +729,10 @@ StScrollBar {
   spacing: 16px; }
 
 .switcher-list {
-  color: #474747;
-  border: 1px solid #BDBDBD;
-  background-color: #fafafa;
-  border-radius: 3px;
+  color: black;
+  border: 1px solid rgba(225, 225, 225, 0.8);
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 12px;
   padding: 20px; }
   .switcher-list > StBoxLayout {
     padding: 4px; }
@@ -740,7 +740,7 @@ StScrollBar {
     spacing: 8px; }
   .switcher-list .item-box {
     padding: 8px;
-    border-radius: 2px; }
+    border-radius: 8px; }
     .switcher-list .item-box:outlined {
       padding: 8px;
       border: 1px solid #4095ff; }
