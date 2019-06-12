@@ -686,9 +686,9 @@ StScrollBar {
   font-size: 80%; }
 
 #notification {
-  border: 1px solid #232323;
-  border-radius: 3px;
-  background-color: #232323;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: rgba(35, 35, 35, 0.9);
   padding: 13px;
   spacing-rows: 10px;
   spacing-columns: 10px;
