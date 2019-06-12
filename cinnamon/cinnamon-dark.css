@@ -188,11 +188,11 @@ StScrollBar {
     color: #a1c3f6; }
 
 #Tooltip {
-  border: 1px solid #d0d0d0;
+  border: 1px solid #232323;
   border-radius: 3px;
   padding: 5px 12px;
-  background-color: #fbeaa0;
-  color: #4a4a4a;
+  background-color: #232323;
+  color: #fefefe;
   font-size: 1em;
   font-weight: normal;
   text-align: center; }
@@ -1173,10 +1173,10 @@ StScrollBar {
   padding-left: 4px; }
 .grouped-window-list-number-label {
   z-index: 99;
-  color: #d0d0d0; }
+  color: #232323; }
 .grouped-window-list-badge {
   border-radius: 256px;
-  background-color: #4a4a4a; }
+  background-color: #fefefe; }
 .grouped-window-list-button-label {
   padding-left: 4px; }
 .grouped-window-list-thumbnail-alert {
