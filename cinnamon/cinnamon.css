@@ -1052,10 +1052,10 @@ StScrollBar {
   font-weight: bold;
   spacing: 1em;
   padding: 20px;
-  color: #474747;
-  background-color: #fafafa;
-  border: 1px solid #BDBDBD;
-  border-radius: 5px; }
+  color: black;
+  border: 1px solid rgba(225, 225, 225, 0.8);
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 12px; }
   .osd-window .osd-monitor-label {
     font-size: 3em; }
   .osd-window .level {
@@ -1327,7 +1327,8 @@ StScrollBar {
   width: 20px;
   height: 14px;
   color: #474747;
-  transition-duration: 200; }
+  transition-duration: 200;
+  border-radius: 3px; }
   .workspace-button.vertical {
     height: 1.5em;
     width: 24px;
@@ -1503,7 +1504,6 @@ StScrollBar {
 
 /*FIXME*/
 .workspace-osd {
-  /*color: red;*/
   color: #c3c3c3;
   text-shadow: black 5px 5px 5px;
   font-weight: bold;
