@@ -883,7 +883,7 @@ StScrollBar {
 #notification {
   border: 1px solid darken($bg_color, 20%);
   border-radius: 12px;
-  background-color: transparentize($bg_color, 0.10);
+  background-color: transparentize($bg_color, 0.05);
   padding: 13px;
   spacing-rows: 10px;
   spacing-columns: 10px;
@@ -947,9 +947,9 @@ StScrollBar {
 }
 
 .switcher-list {
-  color: if($variant == 'light', darken($fg_color, 50%), $fg_color);
-  border: 1px solid transparentize(darken($bg_color, 10%), 0.2);
-  background-color: transparentize($bg_color, 0.2);
+  color: if($variant == 'light', $fg_color, $fg_color);
+  border: 1px solid transparentize(darken($bg_color, 20%), 0.05);
+  background-color: transparentize($bg_color, 0.05);
   border-radius: 12px;
   padding: 20px;
 
@@ -1366,8 +1366,8 @@ StScrollBar {
   padding: 20px;
 
   color: if($variant == 'light', darken($fg_color, 50%), $fg_color);
-  border: 1px solid transparentize(darken($bg_color, 10%), 0.2);
-  background-color: transparentize($bg_color, 0.2);
+  border: 1px solid transparentize(darken($bg_color, 20%), 0.05);
+  background-color: transparentize($bg_color, 0.05);
   border-radius: 12px;
 
   .osd-monitor-label { font-size: 3em; }

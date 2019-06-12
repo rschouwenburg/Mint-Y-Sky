@@ -688,7 +688,7 @@ StScrollBar {
 #notification {
   border: 1px solid black;
   border-radius: 12px;
-  background-color: rgba(35, 35, 35, 0.9);
+  background-color: rgba(35, 35, 35, 0.95);
   padding: 13px;
   spacing-rows: 10px;
   spacing-columns: 10px;
@@ -730,8 +730,8 @@ StScrollBar {
 
 .switcher-list {
   color: #fefefe;
-  border: 1px solid rgba(10, 10, 10, 0.8);
-  background-color: rgba(35, 35, 35, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.95);
+  background-color: rgba(35, 35, 35, 0.95);
   border-radius: 12px;
   padding: 20px; }
   .switcher-list > StBoxLayout {
@@ -1053,8 +1053,8 @@ StScrollBar {
   spacing: 1em;
   padding: 20px;
   color: #fefefe;
-  border: 1px solid rgba(10, 10, 10, 0.8);
-  background-color: rgba(35, 35, 35, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.95);
+  background-color: rgba(35, 35, 35, 0.95);
   border-radius: 12px; }
   .osd-window .osd-monitor-label {
     font-size: 3em; }
