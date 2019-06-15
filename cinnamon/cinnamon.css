@@ -1336,11 +1336,11 @@ StScrollBar {
     padding-top: 3px;
     padding-bottom: 3px; }
   .workspace-button:outlined {
-    background-color: #4095ff;
-    color: #ffffff; }
+    background-color: #474747;
+    color: #fafafa; }
     .workspace-button:outlined:hover {
-      background-color: rgba(64, 149, 255, 0.7);
-      color: #ffffff; }
+      background-color: rgba(71, 71, 71, 0.7);
+      color: #fafafa; }
   .workspace-button:hover {
     background-color: rgba(71, 71, 71, 0.2); }
 
