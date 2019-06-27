@@ -1,0 +1,13 @@
+[Icon Theme]
+Name=Mint-Y-Sky
+Inherits=Mint-Y-Grey,Adwaita,gnome,hicolor
+Comment=Icon theme changes a few oddities in Mint-Y
+
+Directories=icons
+
+[icons]
+Size=16
+Context=Apps
+Type=Scalable
+MinSize=16
+MaxSize=256
