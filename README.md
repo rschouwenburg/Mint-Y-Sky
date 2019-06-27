@@ -1,5 +1,5 @@
 # Mint-Y-Sky
-Brighter Mint-Y theme for Linux Mint
+Brighter Mint-Y theme for Linux Mint Cinnamon
 
 ### Light version
 ![Screenshot](https://github.com/rschouwenburg/Mint-Y-Sky/raw/master/files/screenshot.png)
@@ -10,9 +10,16 @@ Brighter Mint-Y theme for Linux Mint
 
 ## Installation
 
+### Theme
 1. [Download the latest release](https://github.com/rschouwenburg/Mint-Y-Sky/releases)
 2. Unpack archive in ~/.themes -- create dir if it does not exist
-3. Select Mint-Y-Sky or Mint-Y-Sky-Dark in Themes
+3. Select Mint-Y-Sky or Mint-Y-Sky-Dark controls in Themes
+4. Select Mint-Y-Sky or Mint-Y-Sky-Dark desktop in Themes
+
+### Icons
+1. [Download the latest release](https://github.com/rschouwenburg/Mint-Y-Sky/releases)
+2. Unpack archive in ~/.icons -- create dir if it does not exist
+3. Select Mint-Y-Sky icons in Themes
 
 ## Notes
 
