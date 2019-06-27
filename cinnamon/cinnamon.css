@@ -694,7 +694,8 @@ StScrollBar {
   spacing-columns: 10px;
   margin-from-right-edge-of-screen: 20px;
   width: 34em;
-  color: #474747; }
+  color: #474747;
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.07); }
   .popup-menu #notification {
     color: #474747;
     border-image: url("light-assets/misc/message.svg") 9 9 9 9; }
