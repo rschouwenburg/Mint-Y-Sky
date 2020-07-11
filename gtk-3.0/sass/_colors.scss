@@ -1,13 +1,13 @@
 // When color definition differs for dark and light variant,
 // it gets @if ed depending on $variant
 
-$base_color: if($variant =='light', #ffffff, #404040);
+$base_color: if($variant =='light', #ffffff, #1e1f23);
 $text_color: if($variant == 'light', #282828, #fffdfd);
-$bg_color: if($variant =='light', #ECECEC, #383735);
+$bg_color: if($variant =='light', #ECECEC, #2c2e2f);
 $fg_color: if($variant =='light', #282828, #fffdfd);
 
 $selected_fg_color: #ffffff;
-$selected_bg_color: if($variant == 'light', #4095ff, #1769e7);
+$selected_bg_color: if($variant == 'light', #4095ff, #0260db);
 $selected_borders_color: darken($selected_bg_color, 20%);
 $borders_color: if($variant =='light', #BDBDBD, #232323);
 $separator_color: if($variant == 'light', #DFDFDF, #4f4e4c);
@@ -34,17 +34,17 @@ $insensitive_bg_color: if($variant == 'light', mix($bg_color, $base_color, 40%),
 
 $header_bg: red;
 @if $variant=='light' { $header_bg: #DEDDDD; }
-@if $variant=='dark' or $darker=='true' { $header_bg: #434240; }
+@if $variant=='dark' or $darker=='true' { $header_bg: #343638; }
 
 $header_bg_backdrop: if($darker == 'true' or $variant == 'dark', lighten($header_bg, 1.5%), lighten($header_bg, 3%));
 
 $header_border: if($variant == 'light' and $darker== 'false', #BDBDBD, darken($header_bg, 4%));
 $header_highlight: if($variant == 'light' and $darker == 'false', #EEEEEE, #373737);
 
-$header_fg: if($variant == 'light', #404040, saturate(transparentize($fg_color, 0.0), 10%));
+$header_fg: if($variant == 'light', #1e1f23, saturate(transparentize($fg_color, 0.0), 10%));
 $header_fg: if($darker == 'true', saturate(transparentize(#DADADA, 0.0), 10%), $header_fg);
 
-$dark_sidebar_bg: if($variant == 'light', #404040, #353535);
+$dark_sidebar_bg: if($variant == 'light', #1e1f23, #353535);
 $dark_sidebar_fg: #dbdbdb;
 $dark_sidebar_border: if($variant == 'light', $dark_sidebar_bg, darken($dark_sidebar_bg, 5%));
 
@@ -70,24 +70,24 @@ $osd_borders_color: transparentize(black, 0.3);
 $panel_bg: darken($dark_sidebar_bg, 4.7%);
 $panel_fg: #DADADA;
 
-$entry_bg: if($variant=='light', $base_color, lighten($base_color, 0%));
-$entry_border: if($variant == 'light', #BABABA, darken($borders_color, 0%));
+$entry_bg: if($variant=='light', $base_color, #666666);
+$entry_border: if($variant == 'light', #BABABA, #787878);
 
 $header_entry_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), transparentize($base_color, 0.1));
 $header_entry_border: if($darker == 'true' or $variant == 'dark', transparentize(darken($header_bg, 12%), 0.6), transparentize($header_fg, 0.7));
 
-$button_bg: if($variant == 'light', lighten($bg_color, 2%), lighten($base_color, 2%));
-$button_border: $borders_color;
+$button_bg: if($variant == 'light', lighten($bg_color, 2%), #666666);
+$button_border: if($variant == 'light', $borders_color, #787878);
 
-$header_button_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), transparentize(lighten($button_bg, 10%), 0.1));
-$header_button_border: if($darker == 'true' or $variant == 'dark', transparentize(darken($header_bg, 12%), 0.6), transparentize($header_fg, 0.7));
+$header_button_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), #666666);
+$header_button_border: if($darker == 'true' or $variant == 'dark', transparentize(darken($header_bg, 12%), 0.6), #787878);
 
 $trough_color_treeview: if($variant == 'light', #DEDDDD, darken($bg_color, 5%));
 $trough_color: if($variant == 'light', #ffffff, darken($bg_color, 5%));
 
 // WM Colors
 
-$titlebar_fg: if($variant == 'light', #404040, $fg_color);
+$titlebar_fg: if($variant == 'light', #1e1f23, $fg_color);
 $titlebar_fg: if($darker == 'true', $fg_color, $titlebar_fg);
 
 //WM Buttons
