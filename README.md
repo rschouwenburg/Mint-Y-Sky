@@ -30,3 +30,9 @@ This theme is tested on my own setup. My setup is:
 * Panel on top with Menu on the left, Clock in the middle and Systray on the right
 * Plank as dock on the bottom
 * [Plank theme](https://www.gnome-look.org/p/1201564/) - download "Default-Mac THEME(ROUNDED)"
+
+### Slack
+
+To match Slack's colors to this theme:
+* Select "Preferences" -> "Theme" -> "Dark"
+* Copy-paste colors: #2C2E2F,#F8F8FA,#0260DB,#FFFFFF,#666666,#FFFFFF,#0FBA00,#A3030C,#343638,#FFFFFF
